@@ -1,62 +1,107 @@
 <html>
+
+<head>
+    <link href="Resources/Stylecss/Styles.css" type="text/css" rel="stylesheet" />
+</head>
 <h1>
-<a href="onas.html"><img src="Resources/Images/notebook1.jpg" alt="foto_notebooku"> </a>
+    <a href="onas.html"><img src="Resources/Images/notebook1.jpg" alt="foto_notebooku"> </a>
     <figcaption>Na obrázku vidíme notebook.</figcaption>
 </h1>
-<img src="Resources/Images/gif.gif" widt="100" height="400"alt="Pc gif" >
- 
+<img src="Resources/Images/gif.gif" widt="100" height="400" alt="Pc gif">
+
 <table>
 
     <thead>
-        <tr><th>Dátum</th><th>Príjem</th><th>Odpracované dni</th></tr>
+        <tr>
+            <th>Dátum</th>
+            <th>Príjem</th>
+            <th>Odpracované dni</th>
+        </tr>
     </thead>
 
-<tbody>
-    <tr><th>8.január</th><td colspan="2">300</td><td>22</td></tr>
-    <tr><th>2.február</th><td>400</td><td>30</td></tr>
-</tbody>
+    <tbody>
+        <tr>
+            <th>8.január</th>
+            <td colspan="2">300</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <th>2.február</th>
+            <td>400</td>
+            <td>30</td>
+        </tr>
+    </tbody>
 
-<tfoot>
-    <tr><th>Medzisúčet</th><td>700</td><td>52</td></tr>
-</tfoot>
-<form action="" method="post">
-<fieldset>
-    <legend>Kontaktné údaje</legend>
-    <label>Meno a priezvisko<input type="text"name="kontaktne_udaje" size="30" maxlength="5"></label> <br/>
-<label>Emailova adresa:<input type="email" name="emailova_adresa" size="30" maxlength="20"></label> <br/>
-</fieldset> <br/>
-<fieldset>
-<legend>Vaše hodnotenie</legend>
+    <tfoot>
+        <tr>
+            <th>Medzisúčet</th>
+            <td>700</td>
+            <td>52</td>
+        </tr>
+    </tfoot>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Kontaktné údaje</legend>
+            <label>Meno a priezvisko<input type="text" name="kontaktne_udaje" size="30" maxlength="5"></label> <br />
+            <label>Emailova adresa:<input type="email" name="emailova_adresa" size="30" maxlength="20"></label> <br />
+        </fieldset> <br />
+        <fieldset>
+            <legend>Vaše hodnotenie</legend>
 
-<p>
-    <label for="info">Ako ste sa o nás dozvedeli</p></label>
-<select name="respondant"id="info">
-    <option value="facebook">Facebook</option>
-    <option value="instagram">Instagram</option>
-</select>
-</p>
-<p>Páči sa vám dizajn našej stránky?<br/>
-<label><input type="radio" name="hodnotenie" value="ano" /> Áno </label>
-<label><input type="radio" name="hodnotenie" value="nie" /> Nie </label>
-</p> 
-<p>
-    <label for="komentar"> Tu napíšte Vaše pripomienky a komentár.</label> <br/>
-    <textarea rows="4" cols="40" id="komentar" maxlength="20" ></textarea>
-</p>
-<label><input type="checkbox" name="subscribe" checked="checked" />Prihláste sa na odber emailových noviniek. </label> <br>
-<input type="submit" value="Odoslať formulár" />
+            <p>
+                <label for="info">Ako ste sa o nás dozvedeli
+            </p></label>
+            <select name="respondant" id="info">
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+            </select>
+            </p>
+            <p>Páči sa vám dizajn našej stránky?<br />
+                <label><input type="radio" name="hodnotenie" value="ano" /> Áno </label>
+                <label><input type="radio" name="hodnotenie" value="nie" /> Nie </label>
+            </p>
+            <p>
+                <label for="komentar"> Tu napíšte Vaše pripomienky a komentár.</label> <br />
+                <textarea rows="4" cols="40" id="komentar" maxlength="20"></textarea>
+            </p>
+            <label><input type="checkbox" name="subscribe" checked="checked" />Prihláste sa na odber emailových
+                noviniek. </label> <br>
+            <input type="submit" value="Odoslať formulár" />
 
-</fieldset>
-</form>
-
-
-
-
-
-
-
-
+        </fieldset>
+    </form>
 
 </table>
+
+
+<a class="dolezite"> Text vášho odseku.</a>
+<div class="uvod">
+    <h2>Toto je nadpis
+    </h2>
+    <p>Toto je vlastný text
+    </p>
+
+</div>
+<p>
+    Pridáme <span class="ingrediencie">mrkvu</span>
+    <span class="ingrediencie">petržlen</span>
+    <span class="ingrediencie">cibuľu</span> a všetko spolu zamiešame.
+</p>
+
+<video src="resources/Images/yt5s.com-Sinizter - Better Days (prod. NetuH)(720p).mp4" heights="600" width="700"
+    poster="resources/Images/gif.gif" controls>
+</video>
+<br /> <br /> <audio controls>
+    <source src="resources/stein27-zakazany-ovoce.mp3">
+</audio>
+<ul>
+    <li>Dieťa od ul.</li>
+    <p>Dieťa o&d ul</p>
+    <li>Dieťa od ul
+        <p>Vzdialenejší príbuzný od ul</p>
+    </li>
+</ul>
+<p>ďalší element stránky</p>
+<p>ďalší element stránky</p>
 
 </html>
